@@ -1,6 +1,6 @@
 # Requirements (v1)
 
-Actors: `Customer`, `Traveller`, `Travel Agent`, `System Admin`
+Actors: `Customer`, `Traveller`, `Travel Agent`, `System Admin`, `System`
 
 - A `Customer` can search for trips they're interested in
 - A `Customer` can book tickets for the trips they're interested in
@@ -11,3 +11,4 @@ Actors: `Customer`, `Traveller`, `Travel Agent`, `System Admin`
 - A `Travel Agent` adds trips, specifying the number of available places/tickets (1 place = 1 ticket)
 - A `System Admin` manages `Travel Agents` accounts
 - A `System Admin` and a `Travel Agent` can see the list of `Travellers` on each trip
+- The `System` keeps a log of all business operations executed for audit purposes
